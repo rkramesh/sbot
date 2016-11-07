@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../..')
 """
     This is the server starter.
 

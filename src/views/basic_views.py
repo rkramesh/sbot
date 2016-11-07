@@ -7,3 +7,6 @@ def echo(message, match):
 
 def ping(message, match):
     return TextMessageProtocolEntity("Pong!", to=message.getFrom())
+
+def rk(message, match):
+    return TextMessageProtocolEntity("Welcome Boss!", to=message.getFrom())

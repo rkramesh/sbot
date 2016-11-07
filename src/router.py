@@ -20,7 +20,8 @@ from views.quiz import QuizView
 
 # Basic regex routes
 routes = [("^/ping", basic_views.ping),
-          ("^/e(cho)?\s(?P<echo_message>[^$]+)$", basic_views.echo)]
+          ("^/e(cho)?\s(?P<echo_message>[^$]+)$", basic_views.echo),
+		  ("^Rk", basic_views.rk)]
 
 
 class RouteLayer(YowInterfaceLayer):
